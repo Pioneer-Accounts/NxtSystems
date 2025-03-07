@@ -20,7 +20,7 @@ export default function ContactForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:5000/send-email", formData);
+            const response = await axios.post("https://nxtsystems.onrender.com/send-email", formData);
             alert(response.data.message);
         } catch (error) {
             alert("Error sending email!");
