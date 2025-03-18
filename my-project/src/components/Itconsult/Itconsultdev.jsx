@@ -14,7 +14,7 @@ export default function Itconsuldev() {
           whileInView="visible"
           >
             <h2
-            className="text-3xl font-bold text-gray-900">It Consulting</h2>
+            className="text-3xl font-bold text-gray-900">IT Consultation</h2>
             <p
             className="mt-4 text-gray-600">
               Globally optimize highly efficient solutions whereas open-source application. Completely strategize quality internal or "organic" sources for virtual e-business. Phosfluorescently re-engineer enterprise markets via value-added networks.
@@ -63,12 +63,12 @@ export default function Itconsuldev() {
           {[
             { 
               title: "Flexible Solutions", 
-              icon: "/icons/flexible-solutions.svg", 
+              icon: "../../../images/service_feature_1.svg", 
               description: "Completely grow multimedia based content before global scenarios." 
             },
             { 
               title: "24/7 Unlimited Support", 
-              icon: "/icons/unlimited-support.svg", 
+              icon: "../../../images/service_feature_1.svg", 
               description: "Completely grow multimedia based content before global scenarios." 
             }
           ].map((benefit, index) => (

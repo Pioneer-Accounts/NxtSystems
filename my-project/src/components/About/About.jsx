@@ -7,7 +7,7 @@ import render from "../Crender/render";
 
 const AboutUs = () => {
   return (
-    <section className="relative bg-white py-12 px-4 lg:px-20 flex flex-col lg:flex-row items-center font-playfair">
+    <section className="relative bg-white py-12 px-4 lg:px-20 flex flex-col lg:flex-row items-center font-playfair" id="about">
       {/* Left Side: Image */}
       <div className="relative w-full lg:w-1/2">
         <div className="relative w-full h-auto">
@@ -51,11 +51,11 @@ const AboutUs = () => {
 
         {/* Buttons */}
           <div className="mt-6 flex flex-row sm:flex-row justify-center lg:justify-start gap-0">
-              <button className="bg-blue-600 text-white font-medium px-14 py-2 shadow-md hover:bg-blue-700 transition">
+              <button className="bg-gray-600 text-white font-medium px-14 py-2 shadow-md hover:bg-gray-500 transition">
               AWARD WINNING
               </button>
               {}
-              <button className="bg-gray-900 text-white font-medium px-14 py-2 shadow-md hover:bg-gray-800 transition">
+              <button className="bg-gray-500 text-white font-medium px-14 py-2 shadow-md hover:bg-gray-800 transition">
               TECHNOLOGY INDEX
               </button>
         </div>

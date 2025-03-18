@@ -3,6 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import consultimg from "../../../images/consultimg.jpg"
 import { motion } from 'motion/react';
 import { SlideDown, SlideRight, SlideUp } from "../../utility/animation";
+import contact from "../../../src/Contact";
 
 export default function Consultation() {
   return (
@@ -33,9 +34,9 @@ export default function Consultation() {
           Contact Us ➜
         </button>
         </a>
-        <div className="mt-6 flex items-center text-blue-600 text-4xl">
+        {/* <div className="mt-6 flex items-center text-blue-600 text-4xl">
           <FaPhoneAlt />
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );

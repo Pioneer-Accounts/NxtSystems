@@ -13,7 +13,7 @@ import app from "../../../src/WApp.jsx"
 import Cloud from '../../Cloud.jsx';
 import Cyber from '../../Cyber.jsx';
 import Itconsult from '../../Itconsult.jsx'; 
-import Digital from '../../Digital.jsx';
+import Digital from '../../Digital.jsx'; 
 // import { Navigate } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
@@ -24,21 +24,21 @@ import { useNavigate } from "react-router-dom";
 
 
 const Services = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const servicesdata = [
     { title: "Mobile App Development", icon: "📱", description: "creative and innovative", delay:0.1, link:'/app'},
     { title: "Web Development", icon: "📱", description: "creative and innovative", delay: 0.3, link:'/web' },
     { title: "Cloud Solutions", icon: "☁️", description: "Implement secure and scalable", delay:0.5, link:"/cloud" },
     { title: "Cybersecurity", icon: "🛡️", description: "Protect your business from threats", delay:0.7, link:"/cyber" },
-    { title: "IT Consulting", icon: "🎓", description: "Get Expert advice on technology", delay:0.9, link:"/itconsult" },
-    { title: "Digital Marketing", icon: "📈", description: "Boost your online presence", delay:1.1, link:"/digital" }
+    { title: "IT Consultation", icon: "🎓", description: "Get Expert advice on technology", delay:0.9, link:"/itconsult" },
+    { title: "Digital Marketing", icon: "📈", description: "Boost your online presence", delay:1.1, link:"/digital" },
   ];
   return (
-    <div className="bg-gradient-to-r from-gray-950 to-gray-600 text-white py-16 px-8 font-playfair">
+    <div className="bg-gradient-to-r from-gray-950 to-gray-600 text-white py-16 px-8 font-playfair" id="services">
       <div className="max-w-6xl mx-auto text-center">
-        <span className="text-blue-400 font-semibold">LATEST PROJECT</span>
-        <h2 className="text-4xl font-bold mt-2">We Provide Exclusive Service <br /> For <span className="text-blue-500">Your Business</span></h2>
+        {/* <span className="text-blue-400 font-semibold">LATEST PROJECT</span> */}
+        <h2 className="text-4xl font-bold mt-2">Our Services to <br /> <span className="text-blue-500">Enhance Your Business</span></h2>
         <Button className="mt-4 bg-blue-500 hover:bg-blue-600 px-6 py-2 hover:text-white flex items-center gap-2">
           READ MORE <ArrowRight size={18} />
         </Button>

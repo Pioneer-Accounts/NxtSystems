@@ -18,11 +18,11 @@ const StatsSection = () => {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="relative bg-white rounded-3xl shadow-2xl p-6 w-40 flex flex-col items-center"
+            className="relative bg-white rounded-3xl shadow-3xl p-8 w-56 flex flex-col items-center"
           >
             {/* Abstract Shape Behind Icon */}
-            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-black rounded-full opacity-40"></div>
-            <div className="relative z-10 text-4xl" id="design">{stat.icon}</div>
+            {/* <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-black rounded-full opacity-40"></div> */}
+            <div className="relative z-20 text-4xl" id="design">{stat.icon}</div>
 
             {/* Stats Number */}
             <h3 className="text-2xl font-bold text-gray-800 mt-4">{stat.value}</h3>

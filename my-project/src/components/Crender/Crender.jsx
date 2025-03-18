@@ -22,9 +22,9 @@ const Crender = () => {
               Monotonically matrix extensible applications and go forward
               communities. Synergistically extend client-based manufactured.
             </p>
-            <button className="mt-4 px-5 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">
+            {/* <button className="mt-4 px-5 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">
               ABOUT MORE
-            </button>
+            </button> */}
           </div>
         </div>
   )

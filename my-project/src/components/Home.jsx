@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import Navbar from './Navbar/Navbar'
 import Hero from './Hero/Hero'
 import Equipments from './Equipments/Equipments'
@@ -11,11 +12,17 @@ import Process from './Process/Process'
 import Leader from './Leader/Leader'
 import Consultation from './Consultation/Consultation'
 import Footer from './Footer/Footer'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Pioneer from './Pioneers/Pioneer'
+import ProgressSection from './ProgressCircle/ProgressCircle'
+import Header from './Header/Header';
 
 const Home = () => {
   return (
     <div className='overflow-x-hidden'>
       <div>
+        {/* <Header/> */}
         <Navbar/>
         <Hero/>
       </div>
@@ -28,9 +35,10 @@ const Home = () => {
         <StatsSection/>
         <Process/>
         {/* <TechBanner/> */}
-      </div>
+      </div> 
       <div>
         <Leader/>
+        {/* <Pioneer/> */}
         <Consultation/>
       </div>
       <div>

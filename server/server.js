@@ -28,7 +28,7 @@ app.post("/send-email", async (req, res) => {
         // Email content
         let mailOptions = {
             from: process.env.EMAIL_USER,
-            to: "yourrecipient@example.com",
+            to: process.env.RECEIVING_EMAIL,
             subject: `New Contact Form Submission - ${service}`,
             html: `
                 <h3>Contact Form Details</h3>

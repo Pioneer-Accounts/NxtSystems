@@ -1,23 +1,24 @@
 import React from "react";
 import chooseimg from "../../../images/chooseimg.png"
+import ProgressSection from "../ProgressCircle/ProgressCircle";
 
-const Choose = () => {
+const   Choose = () => {
   return (
-    <section className="bg-gray-100 py-16 px-6 md:px-12 font-playfair">
+    <section className="bg-gray-100 py-16 px-6 md:px-12 font-playfair" id="choose">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
         
         {/* Left Content Section */}
         <div className="md:w-1/2">
           <div className="flex items-center space-x-2 text-blue-600 font-semibold">
             <div className="bg-blue-100 p-2 rounded-lg">
-              <img src="/icons/choose-icon.png" alt="Icon" className="w-6 h-6" />
+              <img src="../../../images/chooselogo.png" alt="Icon" className="w-6 h-6" />
             </div>
             <span>WHY CHOOSE US</span>
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold mt-4">
-            More Than <span className="text-blue-600">28+ Years</span> Experience <br />
-            We Provide <span className="text-blue-600">IT Services</span>
+            <span className="text-blue-600"> Excellence</span> in <span className="text-blue-600">IT - Innovating,</span> <br />
+            <span className="text-blue-600">Securing <span className="text-black">and</span>  Shaping  the Future! </span>
           </h2>
           
           <p className="text-gray-600 mt-4">
@@ -27,26 +28,7 @@ const Choose = () => {
           </p>
 
           {/* Stats */}
-          <div className="flex gap-6 mt-6">
-            <div className="text-center flex items-center justify-center">
-              <div className="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-blue-600 text-2xl font-bold">
-                100%
-              </div>
-              <h4 className="font-bold mt-2">Business Grow</h4>
-              <p className="text-sm text-gray-500">
-                Efficiently transition top-line ideas before market.
-              </p>
-            </div>
-            <div className="text-center flex items-center justify-center">
-              <div className="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-blue-600 text-2xl font-bold">
-                100%
-              </div>
-              <h4 className="font-bold mt-2">Quality Products</h4>
-              <p className="text-sm text-gray-500">
-                Efficiently transition top-line ideas before market.
-              </p>
-            </div>
-          </div>
+          <ProgressSection/>
         </div>
 
         {/* Right Image Section */}

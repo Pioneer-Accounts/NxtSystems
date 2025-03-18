@@ -63,12 +63,12 @@ export default function Clouddev() {
           {[
             { 
               title: "Flexible Solutions", 
-              icon: "/icons/flexible-solutions.svg", 
+              icon: "../../../images/service_feature_1.svg", 
               description: "Completely grow multimedia based content before global scenarios." 
             },
             { 
               title: "24/7 Unlimited Support", 
-              icon: "/icons/unlimited-support.svg", 
+              icon: "../../../images/service_feature_1.svg", 
               description: "Completely grow multimedia based content before global scenarios." 
             }
           ].map((benefit, index) => (

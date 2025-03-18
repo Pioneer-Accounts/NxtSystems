@@ -1,9 +1,11 @@
 import React from 'react'
+import { useState } from "react";
 // import { AnimatePresence } from 'motion/react';
 import { FaPlay } from "react-icons/fa";
 import HeroImg from "../../../images/banner.png"
 import { motion } from 'motion/react';
 import { SlideLeft, SlideRight } from '../../utility/animation';
+import VideoButton from '../VideoButton/VideoButton';
 
 
 const Hero = () => {
@@ -26,14 +28,7 @@ const Hero = () => {
                         Empower your business with next-gen technology, seamless integrations, and future-proof infrastructure. From full-stack development to cloud computing and cybersecurity, we deliver IT solutions that drive efficiency, growth, and innovation.
                         </motion.p>
                         {/* button section */}
-                        <motion.div  
-                            variants={SlideRight(1.5)}
-                            initial="hidden"
-                            animate="visible"                             
-                            className='flex justify-center items-center gap-8 md:justify-start !mt-4'>
-                            <button className='primary-btn flex items-center gap-2 '>Order Now</button>
-                            <button className='flex justify-center items-center gap-2 '> <FaPlay/> Watch Now</button>
-                        </motion.div>
+                        <VideoButton/>
                     </div>
                 </div>
                 {/* Hero Image  */}
