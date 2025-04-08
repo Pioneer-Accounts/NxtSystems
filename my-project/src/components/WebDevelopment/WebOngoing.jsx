@@ -6,16 +6,16 @@ import { SlideDown, SlideLeft, SlideUp } from '../../utility/animation';
 export default function WebOngoing() {
   const projects = [
     {
-      title: "Salary Management System",
+      title: "Employee Management System",
       description:
-        "A non web based application developed on React.js and Node.js. The package is under live testing.",
+        "A web based application developed on React.js and Node.js. The package is under live testing.",
       image: "/images/e-com.jpg",
     },
     {
-      title: "Leave Management System",
+      title: "Agriculture Management System",
       description:
-        "A non web based application based on react.js and MongoDB. This package is under live testing.",
-      image: "/images/Response-web.png",
+        "A web based application based on react.js and MongoDB. This package is under live testing.",
+      image: "../../../images/agri.jpg",
     },
     {
       title: "Corporate Website",
@@ -29,6 +29,30 @@ export default function WebOngoing() {
         "A fully customized and responsive web based system. It was developed in Python and Django.",
       image: "/images/fcms.webp",
     },
+    {
+          title: "HealthCare Management System",
+          description:
+            "A web based application developed on React.js and Node.js. The package is under live testing.",
+          image: "../../../images/hospital.jpg",
+        },
+        {
+          title: "Hotel Management System",
+          description:
+            "A web based application developed on React.js and Node.js. The package is under live testing.",
+          image: "../../../images/hotel.jpg",
+        },
+        {
+          title: "Expense Management System",
+          description:
+            "A web based application developed on React.js and Node.js. The package is under live testing.",
+          image: "/images/e-com.jpg",
+        },
+        {
+          title: "Task Management System",
+          description:
+            "A web based application developed on React.js and Node.js. The package is under live testing.",
+          image: "../../../images/task.png",
+        },
   ];
 
   return (
