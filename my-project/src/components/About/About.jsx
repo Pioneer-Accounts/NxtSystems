@@ -37,7 +37,7 @@ const AboutUs = () => {
       {/* Right Side: Content */}
       <div className="lg:w-1/2 w-full text-center lg:text-left mt-8 lg:mt-0 lg:pl-10">
         <h4 className="text-blue-600 font-semibold text-lg flex items-center">
-          <span className="bg-blue-100 p-2 rounded-full mr-2">📘</span> ABOUT NXTSYSTEMS
+          <span className="bg-blue-100 p-2 rounded-full mr-2">📘</span> ABOUT COGNIVAA
         </h4>
         <h2 className="text-4xl font-bold text-gray-900 mt-3">
           Innovation That Powers Your{" "}

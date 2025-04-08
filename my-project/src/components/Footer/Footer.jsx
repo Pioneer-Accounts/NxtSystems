@@ -48,7 +48,14 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold border-b-2 border-blue-600 pb-2">QUICK LINKS</h3>
             <ul className="text-gray-400 mt-3 space-y-2">
-              <li className="hover:text-white cursor-pointer">&gt; About us</li>
+              <li 
+              onClick={(e)=>{
+                e.preventDefault();
+                document.getElementById("about")?.scrollIntoView({
+                  behavior:"smooth",
+                })
+              }}
+              className="hover:text-white cursor-pointer">&gt; About us</li>
               {/* <li className="hover:text-white cursor-pointer">&gt; FAQ</li> */}
               <a href="/contact"><li className="hover:text-white cursor-pointer">&gt; Contact us</li></a>
             </ul>
