@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import ceopic from "../../../images/ceopic.jpg"
+import ceopic from "../../../public/images/ceopic.jpg"
 
 
 const Leader = () => {
@@ -19,9 +19,9 @@ const Leader = () => {
                 <h2 className='text-center text-4xl mb-4 font-playfair'>Our <span className='text-primary font-playfair'>Leaders</span></h2>
                 <Slider {...settings}>
                     {data.map((data) => (
-                        <div key={data.id} className='bg-gray-300 h-[330px] text-black rounded-xl font-playfair'>
-                            <div className='h-56 rounded-t-xl bg-indigo-500 flex justify-center items-center hover:bg-indigo-600'>
-                                <img src={data.img} className='h-52 w-52 rounded-sm hover:scale-105' />
+                        <div key={data.id} className='bg-gray-200 h-[330px] text-black rounded-xl font-playfair'>
+                            <div className='h-56 rounded-t-xl bg-grey-500 flex justify-center items-center hover:bg-indigo-600 rounded-full'>
+                                <img src={data.img} className='h-52 w-52 rounded-full hover:scale-105 ' />
                             </div>
 
                             <div className='flex flex-col justify-center items-center gap-4 p-4'>
@@ -42,7 +42,7 @@ const data = [
     {
         id: "1",
         name: `Dr.Bikas Maity`,
-        img: `../../../public/images/ceopic.png`,
+        img: `../../../public/images/ceopic.jpg`,
         review: `CEO/MD`
     },
     {
