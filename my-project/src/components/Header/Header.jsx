@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "scroll"
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../../images/logo.jpg"
+import logo from "../../../public/images/logo.jpg"
 
 
 const Header = () => {

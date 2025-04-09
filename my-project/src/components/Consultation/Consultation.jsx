@@ -1,6 +1,6 @@
 // import { Button } from "@/components/ui/button";
 import { FaPhoneAlt } from "react-icons/fa";
-import consultimg from "../../../images/consultimg.jpg"
+import consultimg from "../../../public/images/consultimg.jpg"
 import { motion } from 'motion/react';
 import { SlideDown, SlideRight, SlideUp } from "../../utility/animation";
 import contact from "../../../src/Contact";

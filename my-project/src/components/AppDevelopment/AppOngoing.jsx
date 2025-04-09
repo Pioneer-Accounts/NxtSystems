@@ -1,5 +1,5 @@
 import React from 'react'
-import ecom from '../../../images/e-com.jpg'
+import ecom from '../../../public/images/e-com.jpg'
 import { motion } from 'motion/react';
 import { SlideDown, SlideLeft, SlideUp } from '../../utility/animation';
 

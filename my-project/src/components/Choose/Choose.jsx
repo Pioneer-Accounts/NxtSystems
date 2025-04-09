@@ -1,5 +1,5 @@
 import React from "react";
-import chooseimg from "../../../images/chooseimg.png"
+import chooseimg from "../../../public/images/chooseimg.png"
 import ProgressSection from "../ProgressCircle/ProgressCircle";
 
 const   Choose = () => {

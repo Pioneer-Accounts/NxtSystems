@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react";
 // import { AnimatePresence } from 'motion/react';
 import { FaPlay } from "react-icons/fa";
-import HeroImg from "../../../images/banner.png"
+import HeroImg from "../../../public/images/banner.png"
 import { motion } from 'motion/react';
 import { SlideLeft, SlideRight } from '../../utility/animation';
 import VideoButton from '../VideoButton/VideoButton';

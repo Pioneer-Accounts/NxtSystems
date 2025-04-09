@@ -1,5 +1,5 @@
 import React from 'react'
-import render1 from "../../../images/renderimg1.jpg"
+import render1 from "../../../public/images/renderimg1.jpg"
 
 const Crender2 = () => {
   return (

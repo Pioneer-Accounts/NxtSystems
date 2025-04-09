@@ -42,7 +42,7 @@ const data = [
     {
         id: "1",
         name: `Dr.Bikas Maity`,
-        img: `../../../images/ceopic.jpg`,
+        img: `../../../public/images/ceopic.png`,
         review: `CEO/MD`
     },
     {
