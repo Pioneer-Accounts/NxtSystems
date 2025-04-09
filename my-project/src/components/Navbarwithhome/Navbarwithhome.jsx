@@ -23,7 +23,7 @@ const NavbarHome = () => {
                 <div className="container flex justify-between items-center py-8">
                     {/* Logo section */}
                     {/* <img src="/images/logo.jpg" alt="Company logo"/> */}
-                    <div className='text-2xl flex items-center gap-2 font-bold uppercase'>
+                    <div className='text-2xl flex place-items-start gap-2 font-bold uppercase'>
                         <a href="/"><img src={logo} alt="" /></a>
                     </div>
                     {/* Menu section */}
