@@ -43,14 +43,14 @@ const Services = () => {
           READ MORE <ArrowRight size={18} />
         </Button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 h-3/5">
         {servicesdata.map((service, index) => (
           <motion.Card 
           variants={SlideUp(service.delay)}
           initial="hidden"
           whileInView="visible"
-          key={index} className="bg-white text-gray-900 p-6 shadow-lg rounded-lg relative hover:bg-blue-600 hover:text-white hover:shadow-[0_0_22px_0_rgba(0,0,0,0.15)]" id="anime">
-            <div className="absolute top-3 left-1/2 z-10 transform -translate-x-1/2 bg-blue-500 text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">
+          key={index} className="bg-white text-gray-900 p-6 shadow-lg rounded-lg relative hover:bg-sky-200 hover:text-green hover:shadow-[0_0_22px_0_rgba(0,0,0,0.15)]" id="anime">
+            <div className="absolute top-3 left-1/2 z-10 transform -translate-x-1/2 bg-yellow-400 text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">
               <div id='anima'>{service.icon}</div>
             </div>
             <CardContent className="mt-6 text-center hover:text-white" id="back">

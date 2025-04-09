@@ -2,11 +2,12 @@ import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Itconsuldev from './components/Itconsult/Itconsultdev'
 import Footer from './components/Footer/Footer'
+import NavbarHome from './components/Navbarwithhome/Navbarwithhome'
 
 const Itconsult = () => {
   return (
     <div>
-        <Navbar/>
+        <NavbarHome/>
         <Itconsuldev/>
         <Footer/>
     </div>

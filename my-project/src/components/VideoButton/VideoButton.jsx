@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaPlay } from "react-icons/fa";
+import { FaPlay, FaTimes } from "react-icons/fa";
 import { SlideRight } from "../../utility/animation";
-import  video  from '../../../videos/MicrosoftTeams-video.mp4'
+import video from '../../../videos/MicrosoftTeams-video.mp4';
 
 const VideoButton = () => {
     const [showVideo, setShowVideo] = useState(false);
@@ -27,16 +27,30 @@ const VideoButton = () => {
             {showVideo && (
                 <div
                     className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"
-                    onClick={() => setShowVideo(false)} // Close when clicking outside the video
+                    onClick={() => setShowVideo(false)}
                 >
-                    <div className="relative w-3/4 h-3/4 bg-black" onClick={(e) => e.stopPropagation()}>
+                    <div
+                        className="relative w-11/12 md:w-3/4 h-3/4 bg-black rounded-lg overflow-hidden shadow-lg"
+                        onClick={(e) => e.stopPropagation()}
+                    >
                         {/* Close Button */}
-                
+                        
 
                         {/* Video Player */}
-                        <video width="100%" className="videoPlayer" autoPlay src={video}></video>
-
+                        <video
+                            className="w-full h-full object-contain"
+                            controls
+                            autoPlay
+                            src={video}
+                        />
                     </div>
+                    <button
+                            onClick={() => setShowVideo(false)}
+                            className="absolute top-3 right-3 text-white text-xl p-2 rounded-full hover:bg-white hover:text-black transition-all duration-300"
+                            aria-label="Close Video"
+                        >
+                            <FaTimes />
+                        </button>
                 </div>
             )}
         </div>

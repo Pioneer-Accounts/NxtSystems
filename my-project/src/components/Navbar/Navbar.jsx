@@ -6,7 +6,7 @@ import { MdMenu } from "react-icons/md";
 import { DiResponsive } from 'react-icons/di';
 import { FaPlay } from "react-icons/fa";
 import ResponsiveMenu from '../ResponsiveMenu';
-import logo from '../../../public/images/Cogni.png'
+import logo from '../../../public/images/cognivaa.jpg'
 import contact from "../../../src/Contact";
 import {Link} from "scroll";
 
