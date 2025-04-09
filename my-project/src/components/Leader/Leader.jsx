@@ -47,9 +47,9 @@ const data = [
     },
     {
         id: "2",
-        name: `Hemanta Bhaumik`,
+        name: `Mr.Hemanta Bhaumik`,
         img: `../../../images/exepic.jpg`,
-        review: `Executive`
+        review: `Executive Director`
     },
     {
         id: "3",
@@ -61,7 +61,7 @@ const data = [
         id: "4",
         name: `Mr.B.K.Bera`,
         img: `../../../images/capic.jpg`,
-        review: `Chartered Accountant`
+        review: `Chief Accounts Officer`
     },
 
 ]
