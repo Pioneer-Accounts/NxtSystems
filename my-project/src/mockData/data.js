@@ -19,7 +19,7 @@ export const NavbarMenu = [
     },
     {
         id:4,
-        title:"WHY US",
+        title:"WHY WE",
         link:"choose"
     },
     {
