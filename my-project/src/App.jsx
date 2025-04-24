@@ -12,6 +12,7 @@ import AboutUs from './components/About/About'
 import Services from './components/Services/Services'
 import Choose from './components/Choose/Choose'
 import Leader from './components/Leader/Leader'
+import ProductsSection from './components/Product/ProductsSection'
 
 
 // const bgStyle ={
@@ -42,6 +43,7 @@ const App = () => {
       <Route path="/itconsult" element={<Itconsult/>} />
       <Route path="/digital" element={<Digital/>} />
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/product' element={<ProductsSection/>}/>
     </Routes>
   </Router>
   </>
