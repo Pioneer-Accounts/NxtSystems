@@ -6,7 +6,7 @@ import { MdMenu } from "react-icons/md";
 import { DiResponsive } from 'react-icons/di';
 import { FaPlay } from "react-icons/fa";
 import ResponsiveMenu from '../ResponsiveMenu';
-import logo from '../../../public/images/cognivaa.jpg'
+import logo from '../../../public/images/logo.jpg'
 import contact from "../../../src/Contact";
 import { Link } from "scroll";
 
@@ -23,7 +23,7 @@ const NavbarHome = () => {
                 <div className="container flex justify-between items-center py-8">
                     {/* Logo section */}
                     {/* <img src="/images/logo.jpg" alt="Company logo"/> */}
-                    <div className='text-2xl flex place-items-start gap-2 font-bold uppercase'>
+                    <div className='text-xl flex place-items-start gap-2 uppercase h-50 w-80'>
                         <a href="/"><img src={logo} alt="" /></a>
                     </div>
                     {/* Menu section */}
