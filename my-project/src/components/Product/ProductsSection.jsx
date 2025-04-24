@@ -28,7 +28,6 @@ const ProductsSection = () => {
               Secure digital storage and management solution for organizing, searching, and retrieving documents.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -41,7 +40,6 @@ const ProductsSection = () => {
               Comprehensive solution for managing patient records, appointments, billing, and hospital operations.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -54,7 +52,6 @@ const ProductsSection = () => {
               All-in-one solution for managing reservations, inventory, staff, and customer service in hospitality.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -69,7 +66,6 @@ const ProductsSection = () => {
               Complete solution for educational institutions to manage students, faculty, courses, exams, and administrative tasks.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -84,7 +80,6 @@ const ProductsSection = () => {
               Build and manage vibrant online communities with forums, messaging, and content sharing features.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -99,7 +94,6 @@ const ProductsSection = () => {
                 Comprehensive solution for managing employee data, attendance, performance, and HR processes.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -114,7 +108,6 @@ const ProductsSection = () => {
               Track, approve, and analyze business expenses with our powerful expense management platform.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -129,7 +122,6 @@ const ProductsSection = () => {
               Streamline leave requests, approvals, and tracking with our intuitive leave management solution.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
@@ -144,7 +136,6 @@ const ProductsSection = () => {
               Custom website design and development services tailored to your brand and business needs.
               </p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="text-blue-600 font-bold">₹9999/month</span>
                 
               </div>
             </div>
