@@ -25,7 +25,7 @@ export default function Itconsuldev() {
                 variants={SlideLeft()}
                 initial="hidden"
                 whileInView="visible"
-              src="/images/itconsult.jpg"
+              src="/images/cyberimg.webp"
               alt="Web Development"
               className="rounded-lg shadow-lg"
             />
